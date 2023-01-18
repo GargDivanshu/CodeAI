@@ -80,8 +80,8 @@ const messageDiv = document.getElementById(uniqueId);
 
 loader(messageDiv);
 
-
-const response = await fetch('https://CodeAI.divanshugarg1.repl.co', {
+// https://CodeAI.divanshugarg1.repl.co
+const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
