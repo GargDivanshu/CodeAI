@@ -81,7 +81,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
 // https://CodeAI.divanshugarg1.repl.co
-const response = await fetch('http://localhost:5000', {
+const response = await fetch('https://CodeAI.divanshugarg1.repl.co', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
