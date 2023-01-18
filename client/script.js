@@ -81,7 +81,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
 
-const response = await fetch('https://codeai-1g5z.onrender.com/', {
+const response = await fetch('https://CodeAI.divanshugarg1.repl.co', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
