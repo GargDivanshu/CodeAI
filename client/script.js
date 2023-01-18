@@ -81,7 +81,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
 
-const response = await fetch('https://codeai-4yqs.onrender.com', {
+const response = await fetch('http://localhost:5000/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',

@@ -5,7 +5,7 @@ import { Configuration, OpenAIApi } from 'openai'
 
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: "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"
 });
 
 const openai = new OpenAIApi(configuration);
@@ -44,4 +44,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
+app.listen(5000, () => console.log('http://localhost:5000'))
